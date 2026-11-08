@@ -1,0 +1,45 @@
+Listings analyzed: 36320
+
+Q1. Listings and median price by room type
+                 listings  median_price
+room_type                              
+Entire home/apt     26827        263.31
+Private room         8819         86.52
+Hotel room            387        287.00
+Shared room           287         35.17
+
+Q2. Top 10 most expensive neighborhoods (median price)
+                                       listings  median_price
+neighborhood                                                 
+Beverly Crest                               156       945.835
+Hollywood Hills West                        525       848.200
+Malibu                                      299       785.000
+Avalon                                      202       764.000
+Bel-Air                                      58       756.320
+Unincorporated Santa Monica Mountains       162       560.405
+Manhattan Beach                             388       518.375
+Veterans Administration                      52       447.465
+Pacific Palisades                            93       413.630
+Marina del Rey                              325       389.200
+
+Q3. Average rating by price range
+             listings  avg_rating
+price_range                      
+Up to $100       4988        4.69
+$101-200         7902        4.77
+$201-300         5586        4.80
+$301-500         5405        4.81
+$501+            3897        4.84
+
+Q4. Share of listings by host size (%)
+host_type
+2-9 listings    38.8
+1 listing       32.1
+10+ listings    29.1
+Name: proportion, dtype: float64
+
+Q5. Superhosts vs regular hosts
+                   listings  avg_rating  median_price
+host_is_superhost                                    
+False                 21094        4.69        191.75
+True                  15226        4.87        240.88
